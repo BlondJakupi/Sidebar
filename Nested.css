@@ -1,0 +1,205 @@
+.teksti{
+    font-size: larger;  
+   }
+   .butoni:hover{
+     text-decoration: underline;
+     cursor: pointer;
+     background-color: gray;
+   }
+   .butoni{
+      border-radius: 45px;
+      background-color: white;
+      margin-left: 8px;
+      margin-right: 8px;      
+   }
+   .input{   
+     border-color: rgb(0, 0, 0);
+     padding-left: 8px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     flex: 1;
+     min-width: 50px;
+     font-weight: bolder; 
+     box-shadow: inset 1px 2px 5px rgb(116, 110, 110, 0.15);
+     width: 500px; 
+   }
+   .input::placeholder{
+    font-weight: bolder;
+   }
+   .flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    position: fixed;
+    right: 0;
+    left: 85px;
+    top: 0;
+   } 
+   
+      .span{
+        color: white;
+        margin-left: 40px;
+        font-size: larger;
+      }
+      .image{
+        width: 300px;
+    }   
+    .shembull{
+    display:inline-block ;
+    width: 300px;
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 30px;
+    }
+    .video{
+    display: inline-block;
+    width: 300px;
+    margin-left: 30px;
+    vertical-align: top;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 30px;
+    }
+    .ok{
+    width: 300px;
+    
+    }
+    .video :hover{
+    font-weight: bold;
+    }
+    .shembull :hover{
+    font-weight: bold;
+    }
+    .ok2{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin-left: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 30px;
+    
+    }
+    .ok3{
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin-left: 30px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 30px;
+    
+    }
+    .ok2 :hover{
+    font-weight: bold;
+    }
+    .ok3{
+    font-weight: bold;
+    }
+    .kryesori{
+    color: beige;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    .linku{
+      font-weight: bolder;
+      text-decoration: none;
+      color: white;
+    }
+    .linku:hover{
+      text-decoration: underline;
+    }
+    .krejt{     
+      background-color:gray;
+      margin: 0;
+      height: 3000px;
+      padding-top: 80px;
+      padding-left: 80px;
+    }
+    .you{
+      width: 100px;
+    }
+    .menu{
+        width: 45px;
+        margin-right: 10px;              
+    }
+    .youtube{
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+        margin-top: 15px;
+        
+    }
+    .apps{
+        width: 50px;
+        margin-left: 30px;
+    }
+    .mes{
+        width: 50px;
+        margin-left: 30px;
+    }
+    .upload{
+        width: 50px;
+        margin-left: 30px;
+    }
+    .search{
+        width: 25px;
+        height: 26px;
+        margin-left: -2px;          
+    }
+    .voice1{
+        width: 36px;
+        height: 36px;
+        margin-left: 10px;
+        border-radius: 18px;
+        border: none;
+    }
+    .mesi{
+        display: flex;
+        align-items: center;       
+        min-width: 30px;      
+    }
+    .fundi{
+        display: flex;
+        justify-content: space-between; 
+        width: 250px;
+        flex-shrink: 0;
+              
+    }
+    .upload:hover{
+        cursor: pointer;
+    }
+    .search:hover{
+        cursor: pointer;
+    }
+    .apps:hover{
+        cursor: pointer;
+    }
+    .voice1:hover{
+        cursor: pointer;
+    }
+    .menu:hover{
+        cursor: pointer;
+    }
+    .mes:hover{
+        cursor: pointer;
+    }
+    .Sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;      
+    bottom: 0;
+    width: 85px;
+    border-right-style: solid;
+    border-right-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    }
+   
